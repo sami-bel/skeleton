@@ -1,0 +1,5 @@
+arris_http_client:
+    client_factory: 'App\Client\ClientFactoryPsr18'
+
+#    client_http: 'Symfony\Component\HttpClient\Psr18Client:
+'

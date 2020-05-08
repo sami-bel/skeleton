@@ -1,14 +1,24 @@
 {
     "type": "project",
     "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sami-bel/arris-http-client.git"
+        }
+    ],
     "require": {
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "arris/httpClient-bundle": "dev-test",
+        "nyholm/psr7": "^1.2",
+        "psr/http-client": "^1.0",
         "symfony/console": "4.4.*",
         "symfony/dotenv": "4.4.*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "4.4.*",
+        "symfony/http-client": "4.4.*",
         "symfony/yaml": "4.4.*"
     },
     "require-dev": {
