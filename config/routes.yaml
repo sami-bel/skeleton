@@ -1,3 +1,11 @@
 index:
     path: /
     controller: App\Controller\IndexController::index
+
+search:
+    path: /search
+    controller: App\Controller\ElasticController::search
+
+save:
+    path: /save
+    controller: App\Controller\ElasticController::save
